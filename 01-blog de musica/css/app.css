@@ -1,0 +1,65 @@
+html{
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  background-color:rosybrown;
+}
+header{
+  margin-bottom: 10px;
+}
+.redessociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 15%;
+}
+.rojo{
+  background-color: yellow;
+}
+.azul{
+  background-color: blue;
+}
+.celeste{
+  background-color: #00B9FF;
+}
+.verde{
+  background-color: #489D4A;
+}
+.imagenlogo{
+  width: 100%;
+  border-radius: 170px;
+    width: 250px;
+    height: 250px;
+}
+
+.nav{
+  background-color:crimson;
+  border-radius: 15px;
+  height: 60px;
+}
+
+img[class^='estiloimg']{
+  width: 8%;
+}
+.estilopropio{
+  width: 100%;
+  margin-top: 50%;
+}
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+/*******************************************************************************/
+@media all and (max-width: 900px) {
+.redessociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+}
